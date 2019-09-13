@@ -25,7 +25,7 @@ Haar Cascade classifier is based on the Haar Wavelet technique to analyse pixels
 
 ### 2. DNN Face Detector in OpenCV
 This model is based on Single-Shot-Multibox detector and uses ResNet-10 Architecture as backbone. The model was trained using images available from the web. We use caffemodel and prototxt files for loading caffe model. The model used is of resolution of 300x300, Hence, we resize the frames to 300x300. The frame is converted to a blob and passed through the network using the forward() function. The output detections is a 4-D matrix, where
-* The 3rd dimension iterates over the detected faces.(detections.shape[2])
+* The 3rd dimension iterates over the detected faces(detections.shape[2]).
 * The fourth dimension contains information about the bounding box and score for each face. For example, detections[0,0,i,2] gives the confidence score for the first face, and detections[0,0,i,3:7] give the bounding box.
 The output coordinates of the bounding box are normalized between [0,1]. Thus the coordinates should be multiplied by the height and width of the original image to get the correct bounding box on the image.
 
