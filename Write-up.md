@@ -40,7 +40,7 @@ The output coordinates of the bounding box are normalized between [0,1]. Thus th
 
 The DNN based detector overcomes all the drawbacks of Haar cascade based detector, without compromising on any benefit provided by Haar.
 
-## Live Videostream
+## Live Videostream(Faults)
 
 * **Odomantus**
 	* The Odomantus is added to meeting as test user to take snapshots of the live meeting.
