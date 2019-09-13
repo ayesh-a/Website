@@ -40,10 +40,11 @@ The output coordinates of the bounding box are normalized between [0,1]. Thus th
 
 The DNN based detector overcomes all the drawbacks of Haar cascade based detector, without compromising on any benefit provided by Haar.
 
-## Live Videostream(Odomantus)
+## Live Videostream
 
-* The Odomantus is added to meeting as test user to take snapshots of the live meeting.
-* Odomantus only takes snapshots for first 20 seconds of the meeting.(Approx. 20 snapshots)
-* It does not work properly when the TP end point has more than one camera.
+* **Odomantus**
+	* The Odomantus is added to meeting as test user to take snapshots of the live meeting.
+	* Odomantus only takes snapshots for first 20 seconds of the meeting.(Approx. 20 snapshots)
+	* It does not work properly when the TP end point has more than one camera.
 * The meeting is not recorded unless some content is shared or active speaker is present....the bug is somewhere along the line. 
 
